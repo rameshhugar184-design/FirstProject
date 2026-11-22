@@ -1,0 +1,16 @@
+{
+  "name": "firstproject-issue-triage-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "REST API and GitHub webhook for issue creation and triage.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
